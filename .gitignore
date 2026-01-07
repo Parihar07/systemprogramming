@@ -81,3 +81,15 @@ dkms.conf
 
 # rustfmt backup files
 **/*.rs.bk
+
+# Cargo.lock (for non-library projects)
+*.lock
+
+# Cargo.toml (if you don't want to track project manifests)
+*.toml
+
+# Compiled binaries (project-specific)
+
+
+# Incremental compilation
+**/incremental/
